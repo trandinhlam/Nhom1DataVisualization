@@ -15,6 +15,7 @@
 ## Biên bản họp ngày 08/10/2021
 
 1. Khảo sát, mô tả dữ liệu => vote trong file excel độ quan trọng của field data
+    + Link file: https://docs.google.com/spreadsheets/d/1PRBqeUQSN8W3h-8JnllVUT17r7lXot-HX14RQlCfzGY/edit?usp=sharing
 2. Đặt câu hỏi, phát biểu bài toán
     + Trình bày vấn đề tổng thể:
     + Đặt được 3+ câu hỏi hay: => file excel note

@@ -1,0 +1,7 @@
+./code/python/venv/*
+./code/python/data/*
+code/python/data/switrs/switrs_raw_csvs/20201024/20201024_CollisionRecords.txt
+code/python/data/switrs/switrs_raw_csvs/20201024/20201024_PartyRecords.txt
+code/python/data/switrs/switrs_raw_csvs/20201024/.~lock.20201024_RawData_template.docx#
+code/python/data/switrs/switrs_raw_csvs/20201024/20201024_RawData_template.docx
+code/python/.idea/*

@@ -39,7 +39,19 @@ def stat_by_geo():
     df = pd.read_csv(export_case_by_geo_csv)
     df.plot.bar(x='population', y='cases')
     plt.show()
-    # gdf = geopandas.GeoDataFrame(
-    #     df, geometry=geopandas.points_from_xy(df.Longitude, df.Latitude))
 
-stat_by_geo()
+def stat_by_env():
+    field = 'road_surface'
+    export_case_by_env_csv = f'./data/export/by_env/case_by_{field}.csv'
+    export_case_by_env_png = f'./data/export/by_env/case_by_{field}.png'
+    case_by_geo_df = pd.read_sql_query(
+        f"SELECT count(case_id) as cases, {field} as {field} FROM collisions group by {field}",
+        cnx)
+    case_by_geo_df.to_csv(path_or_buf=export_case_by_env_csv)
+    df = pd.read_csv(export_case_by_env_csv)
+    df.plot.pie(x=field, y='cases')
+    plt.savefig(export_case_by_env_png)
+    plt.show()
+
+
+stat_by_env()

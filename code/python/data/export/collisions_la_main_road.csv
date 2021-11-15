@@ -1,0 +1,101 @@
+,case_id,collision_year,collision_date,dayofweek,collision_time,is_rush_hour,county_location,latitude,longitude,primary_road,weather_1,road_surface,lighting,vehicle_caused_fault,collision_degree
+0,90012669,2015,2015-08-23,Sun,13,rush,los angeles,34.79668,-118.86758,I-5,clear,dry,daylight,orther,not serious
+1,90012695,2015,2015-08-25,Tue,12,rush,los angeles,34.79472,-118.84934,I-5,clear,dry,daylight,orther,not serious
+2,90020256,2015,2015-09-21,Mon,4,rush,los angeles,34.81509,-118.88432,I-5,clear,dry,dark with no street lights,truck,not serious
+3,90020382,2015,2015-09-13,Sun,13,rush,los angeles,34.79749,-118.86913,I-5,clear,dry,daylight,truck,injured
+4,90020915,2015,2015-09-13,Sun,5,rush,los angeles,34.79529,-118.85543,I-5,clear,dry,dark with no street lights,orther,injured
+5,90023602,2015,2015-08-20,Thu,12,rush,los angeles,,,I-5,clear,dry,daylight,orther,not serious
+6,90024026,2015,2015-09-29,Tue,6,rush,los angeles,34.07685,-117.90462,I-10,clear,dry,dark with street lights,orther,not serious
+7,90024126,2015,2015-09-23,Wed,17,rush,los angeles,34.14858,-118.05524,I-210,clear,dry,daylight,orther,not serious
+8,90024153,2015,2015-09-29,Tue,6,rush,los angeles,34.32434,-118.50273,I-5,clear,dry,dark with no street lights,orther,not serious
+9,90024176,2015,2015-09-29,Tue,7,rush,los angeles,33.4741,-118.0617,I-405,clear,dry,daylight,truck,not serious
+10,90024180,2015,2015-09-29,Tue,11,rush,los angeles,33.31243,-118.16428,I-405,clear,dry,daylight,orther,not serious
+11,90024189,2015,2015-09-29,Tue,17,rush,los angeles,33.80255,-118.11805,I-405,clear,dry,daylight,orther,injured
+12,90024205,2015,2015-09-28,Mon,5,rush,los angeles,33.92928,-118.2276,I-105,clear,dry,dusk or dawn,orther,not serious
+13,90024262,2015,2015-09-29,Tue,10,rush,los angeles,33.92864,-118.25163,I-105,clear,dry,daylight,orther,not serious
+14,90024378,2015,2015-09-27,Sun,12,rush,los angeles,34.0687,-118.03999,I-10,clear,dry,daylight,orther,not serious
+15,90024532,2015,2015-09-29,Tue,17,rush,los angeles,34.13026,-117.94544,I-210,clear,dry,daylight,truck,not serious
+16,90024552,2015,2015-09-29,Tue,17,rush,los angeles,34.07215,-117.9214,I-10,clear,dry,daylight,orther,injured
+17,90024576,2015,2015-09-29,Tue,15,rush,los angeles,34.121,-117.89,I-210,clear,dry,daylight,orther,injured
+18,90024614,2015,2015-09-24,Thu,7,rush,los angeles,34.07224,-117.95191,I-10,clear,dry,daylight,orther,not serious
+19,90024681,2015,2015-09-29,Tue,16,rush,los angeles,34.35213,-118.54638,I-5,clear,dry,daylight,orther,not serious
+20,90024686,2015,2015-09-29,Tue,17,rush,los angeles,34.26951,-118.47236,I-405,clear,dry,daylight,orther,injured
+21,90024691,2015,2015-09-29,Tue,16,rush,los angeles,34.71452,-118.79835,I-5,clear,dry,daylight,orther,not serious
+22,90024844,2015,2015-09-30,Wed,8,rush,los angeles,34.31552,-118.48954,I-5,clear,dry,daylight,motorcycle,not serious
+23,90024851,2015,2015-09-29,Tue,10,rush,los angeles,34.16848,-118.15763,I-210,clear,dry,daylight,orther,not serious
+24,90024856,2015,2015-10-01,Thu,6,rush,los angeles,34.31769,-118.49137,I-5,clear,dry,daylight,orther,not serious
+25,90025034,2015,2015-09-29,Tue,18,rush,los angeles,34.23434,-118.40612,I-5,clear,dry,dusk or dawn,orther,injured
+26,90025038,2015,2015-09-29,Tue,7,rush,los angeles,34.22107,-118.24533,I-210,clear,dry,daylight,truck,not serious
+27,90025042,2015,2015-09-30,Wed,9,rush,los angeles,33.802,-118.115,I-405,clear,dry,daylight,orther,not serious
+28,90025113,2015,2015-10-01,Thu,7,rush,los angeles,34.07238,-117.93054,I-10,clear,dry,daylight,truck,not serious
+29,90025121,2015,2015-09-29,Tue,9,rush,los angeles,34.06576,-117.96958,I-10,clear,dry,daylight,truck,not serious
+30,90025124,2015,2015-09-30,Wed,6,rush,los angeles,34.07086,-117.95964,I-10,clear,dry,daylight,orther,not serious
+31,90025134,2015,2015-09-30,Wed,6,rush,los angeles,34.06841,-117.97164,I-10,clear,dry,daylight,orther,not serious
+32,90025142,2015,2015-09-29,Tue,6,rush,los angeles,34.07028,-117.50469,I-210,clear,dry,daylight,orther,injured
+33,90025147,2015,2015-09-30,Wed,12,rush,los angeles,34.04404,-117.59537,I-605,clear,dry,daylight,orther,not serious
+34,90025159,2015,2015-10-01,Thu,8,rush,los angeles,34.06598,-117.99292,I-10,clear,dry,daylight,orther,injured
+35,90025264,2015,2015-09-26,Sat,10,rush,los angeles,34.06281,-118.1982,I-10,clear,dry,daylight,orther,not serious
+36,90025267,2015,2015-09-30,Wed,9,rush,los angeles,33.99602,-118.1464,I-5,clear,dry,daylight,truck,not serious
+37,90025271,2015,2015-10-01,Thu,5,rush,los angeles,34.00832,-118.17226,I-710,clear,dry,dark with no street lights,orther,not serious
+38,90025279,2015,2015-10-01,Thu,16,rush,los angeles,34.04174,-118.17032,I-710,clear,dry,daylight,orther,injured
+39,90025338,2015,2015-09-24,Thu,8,rush,los angeles,34.16824,-118.4689,I-405,clear,dry,daylight,orther,not serious
+40,90025403,2015,2015-09-29,Tue,17,rush,los angeles,34.40075,-118.57268,I-5,clear,dry,daylight,orther,not serious
+41,90025544,2015,2015-09-30,Wed,8,rush,los angeles,34.11777,-117.85574,I-210,clear,dry,daylight,orther,not serious
+42,90025578,2015,2015-09-26,Sat,10,rush,los angeles,34.79462,-118.85249,I-5,clear,dry,daylight,orther,not serious
+43,90025747,2015,2015-10-04,Sun,6,rush,los angeles,34.58581,-118.71079,I-5,raining,wet,dark with street lights,orther,not serious
+44,90025753,2015,2015-10-03,Sat,13,rush,los angeles,34.74317,-118.79669,I-5,clear,dry,daylight,orther,not serious
+45,90025804,2015,2015-09-15,Tue,4,rush,los angeles,34.33581,-118.50772,I-5,cloudy,wet,dark with no street lights,truck,injured
+46,90025843,2015,2015-09-30,Wed,21,not,los angeles,34.26856,-118.44499,I-5,clear,dry,dark with street lights,orther,injured
+47,90025931,2015,2015-09-30,Wed,8,rush,los angeles,33.863,-118.199,I-710,clear,dry,daylight,orther,not serious
+48,90025958,2015,2015-10-01,Thu,8,rush,los angeles,33.797,-118.108,I-405,clear,dry,daylight,orther,not serious
+49,90025982,2015,2015-09-30,Wed,9,rush,los angeles,33.91672,-118.28701,I-110,clear,dry,daylight,truck,not serious
+50,90025990,2015,2015-09-29,Tue,5,rush,los angeles,33.82171,-118.19525,I-405,clear,dry,dark with street lights,orther,not serious
+51,90026002,2015,2015-10-02,Fri,16,rush,los angeles,33.88361,-118.35152,I-405,clear,dry,daylight,orther,not serious
+52,90026019,2015,2015-10-04,Sun,11,rush,los angeles,33.52218,-118.17102,I-110,cloudy,wet,daylight,orther,not serious
+53,90026115,2015,2015-09-29,Tue,17,rush,los angeles,33.85951,-118.29343,I-405,clear,dry,daylight,orther,not serious
+54,90026140,2015,2015-10-05,Mon,0,not,los angeles,34.0199,-118.1286,I-5,cloudy,dry,dark with street lights,orther,not serious
+55,90026141,2015,2015-10-02,Fri,14,rush,los angeles,33.85959,-118.30517,I-405,clear,dry,daylight,motorcycle,injured
+56,90026181,2015,2015-10-02,Fri,17,rush,los angeles,33.51537,-118.19405,I-405,clear,dry,daylight,orther,not serious
+57,90026190,2015,2015-10-01,Thu,15,rush,los angeles,33.82584,-118.20569,I-710,clear,dry,daylight,orther,injured
+58,90026250,2015,2015-10-02,Fri,19,rush,los angeles,33.5614,-118.16468,I-110,clear,dry,dark with street lights,orther,not serious
+59,90026387,2015,2015-10-02,Fri,22,not,los angeles,34.35156,-118.54524,I-5,clear,dry,dark with no street lights,truck,not serious
+60,90026417,2015,2015-09-30,Wed,1,not,los angeles,,,I-5,clear,dry,dark with no street lights,orther,not serious
+61,90026427,2015,2015-10-02,Fri,14,rush,los angeles,34.30087,-118.42086,I-210,clear,dry,daylight,orther,not serious
+62,90026434,2015,2015-09-30,Wed,13,rush,los angeles,34.35421,-118.54942,I-5,clear,dry,daylight,orther,not serious
+63,90026478,2015,2015-09-30,Wed,19,rush,los angeles,34.35288,-118.54804,I-5,clear,dry,dark with no street lights,orther,injured
+64,90026551,2015,2015-10-01,Thu,8,rush,los angeles,34.07234,-118.07237,I-10,clear,dry,daylight,orther,injured
+65,90026556,2015,2015-10-02,Fri,11,rush,los angeles,34.32406,-118.50161,I-5,clear,dry,daylight,orther,not serious
+66,90026566,2015,2015-09-25,Fri,12,rush,los angeles,34.05061,-118.00598,I-605,clear,dry,daylight,orther,not serious
+67,90026604,2015,2015-09-30,Wed,8,rush,los angeles,33.97617,-118.07827,I-605,clear,dry,daylight,orther,injured
+68,90026608,2015,2015-09-30,Wed,9,rush,los angeles,33.94413,-118.17069,I-710,clear,dry,daylight,truck,not serious
+69,90026628,2015,2015-09-29,Tue,8,rush,los angeles,34.22189,-118.47371,I-405,clear,dry,daylight,truck,injured
+70,90026663,2015,2015-10-01,Thu,19,rush,los angeles,34.01847,-118.27925,I-110,clear,dry,dark with street lights,orther,not serious
+71,90026672,2015,2015-09-30,Wed,5,rush,los angeles,33.935,-118.09963,I-605,clear,dry,dark with no street lights,truck,not serious
+72,90026673,2015,2015-09-30,Wed,7,rush,los angeles,33.92897,-118.2901,I-105,clear,dry,daylight,orther,injured
+73,90026688,2015,2015-10-03,Sat,9,rush,los angeles,34.05897,-118.25321,I-110,clear,dry,daylight,orther,not serious
+74,90026690,2015,2015-10-01,Thu,6,rush,los angeles,33.92883,-118.2429,I-105,clear,dry,dusk or dawn,orther,injured
+75,90026714,2015,2015-09-25,Fri,14,rush,los angeles,34.17203,-118.46553,I-405,clear,dry,daylight,orther,injured
+76,90026739,2015,2015-09-30,Wed,12,rush,los angeles,33.9951,-118.1451,I-5,clear,dry,daylight,truck,not serious
+77,90026757,2015,2015-09-30,Wed,13,rush,los angeles,34.99897,-118.17794,I-710,clear,dry,daylight,truck,not serious
+78,90026778,2015,2015-10-05,Mon,7,rush,los angeles,33.86199,-118.33342,I-405,clear,dry,daylight,orther,not serious
+79,90026783,2015,2015-10-06,Tue,9,rush,los angeles,33.812,-118.161,I-405,clear,dry,daylight,orther,not serious
+80,90026790,2015,2015-09-28,Mon,17,rush,los angeles,33.95078,-118.09148,I-605,clear,dry,daylight,orther,injured
+81,90026842,2015,2015-09-30,Wed,7,rush,los angeles,33.91405,-118.11354,I-605,clear,dry,daylight,orther,not serious
+82,90026881,2015,2015-09-28,Mon,13,rush,los angeles,33.95581,-118.08851,I-605,clear,dry,daylight,orther,injured
+83,90026897,2015,2015-09-30,Wed,12,rush,los angeles,33.94653,-118.10003,I-5,clear,dry,daylight,orther,not serious
+84,90026913,2015,2015-09-27,Sun,20,not,los angeles,34.03668,-118.22048,I-5,clear,dry,dark with street lights,orther,not serious
+85,90026915,2015,2015-09-30,Wed,9,rush,los angeles,33.89326,-118.046,I-5,clear,dry,daylight,orther,not serious
+86,90026969,2015,2015-09-28,Mon,12,rush,los angeles,34.24375,-118.42147,I-5,clear,dry,daylight,orther,not serious
+87,90026982,2015,2015-09-30,Wed,15,rush,los angeles,34.03641,-118.31854,I-10,clear,dry,daylight,orther,not serious
+88,90026998,2015,2015-09-30,Wed,19,rush,los angeles,33.89941,-118.05502,I-5,clear,dry,dark with no street lights,orther,injured
+89,90027036,2015,2015-09-29,Tue,6,rush,los angeles,33.9233,-118.2058,I-105,cloudy,dry,daylight,orther,injured
+90,90027048,2015,2015-09-29,Tue,9,rush,los angeles,33.9283,-118.2384,I-105,clear,dry,daylight,orther,not serious
+91,90027082,2015,2015-10-02,Fri,8,rush,los angeles,33.95403,-118.36854,I-405,clear,dry,daylight,orther,not serious
+92,90027084,2015,2015-10-01,Thu,16,rush,los angeles,33.92185,-118.10421,I-605,clear,dry,daylight,truck,not serious
+93,90027085,2015,2015-10-01,Thu,7,rush,los angeles,33.85776,-118.09647,I-605,clear,dry,daylight,truck,injured
+94,90027086,2015,2015-10-03,Sat,9,rush,los angeles,33.95573,-118.36926,I-405,clear,dry,daylight,orther,not serious
+95,90027087,2015,2015-10-02,Fri,12,rush,los angeles,33.9428,-118.36903,I-405,clear,dry,daylight,orther,not serious
+96,90027088,2015,2015-09-30,Wed,22,not,los angeles,34.02956,-118.4037,I-10,clear,dry,dark with street lights,orther,not serious
+97,90027090,2015,2015-10-05,Mon,3,rush,los angeles,34.03164,-118.41666,I-10,cloudy,dry,dark with no street lights,orther,injured
+98,90027091,2015,2015-10-01,Thu,8,rush,los angeles,33.86092,-118.09645,I-605,clear,dry,daylight,orther,not serious
+99,90027094,2015,2015-10-01,Thu,14,rush,los angeles,33.99443,-118.4045,I-405,clear,dry,daylight,orther,not serious

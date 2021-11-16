@@ -88,8 +88,10 @@ def build_full_query(last_id):
             " county_location = 'los angeles' "
             " and primary_road like 'I-%'")
 
+main_roads = ['I-5', 'I-10','I-210','I-405','I-105','I-605','I-710','I-110']
 
 def truncate_road(data):
+    truncated = []
     for i in range(len(data)):
         road = data['primary_road'][i]
         try:
@@ -97,9 +99,11 @@ def truncate_road(data):
             main_road = split[0].replace('--', '-')
             main_road = main_road.split('(')[0]
             data['main_road'][i] = main_road
+            if main_road in main_roads:
+                truncated.append(data['main_road'][i])
         finally:
             i = i
-        # print(data['primary_road'][i])
+    return truncated
 
 
 def export_full():

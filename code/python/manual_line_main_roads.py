@@ -11,7 +11,7 @@ def _load_points(file_name):
 
 
 dict_roads = {}
-for road in ['I-5']:
+for road in cfg.main_roads:
     print(road)
     file_name = f'data/export/polygons/{road}.csv'
     points = _load_points(file_name)

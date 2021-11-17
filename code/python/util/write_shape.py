@@ -7,7 +7,7 @@ from osgeo import ogr, osr
 
 def create_poly(poly):
     # list.sort(poly, reverse=True)
-    ring = ogr.Geometry(ogr.wkbLineString)
+    ring = ogr.Geometry(ogr.wkbLinearRing)
     for i in range(len(poly)):
         point = poly[i]
         ring.AddPoint(point[1], point[0])

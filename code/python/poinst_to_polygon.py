@@ -8,7 +8,7 @@ import util.write_shape as ws
 
 
 def polygon_data():
-    csv_file = './data/export/collisions_la_main_road_only.csv'
+    csv_file = './data/export/f.csv'
     data = pd.read_csv(csv_file)
 
     map_point_dict = {}

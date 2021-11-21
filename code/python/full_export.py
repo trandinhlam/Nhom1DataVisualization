@@ -1,10 +1,14 @@
 import sqlite3
 import pandas as pd
+from osgeo import ogr
 from pandas import isna
 
 sql_file = './data/switrs.sqlite'
 cnx = sqlite3.connect(sql_file)
 # import geocoder
+from shapely.geometry.point import Point
+
+
 
 
 def build_full_query(last_id):
@@ -88,9 +92,29 @@ def build_full_query(last_id):
             " county_location = 'los angeles' "
             " and primary_road like 'I-%'")
 
-main_roads = ['I-5', 'I-10','I-210','I-405','I-105','I-605','I-710','I-110']
+main_roads = ['I-5', 'I-10', 'I-210', 'I-405', 'I-105', 'I-605', 'I-710', 'I-110']
+
+def create_poly(poly):
+    # list.sort(poly, reverse=True)
+    ring = ogr.Geometry(ogr.wkbLinearRing)
+    for i in range(len(poly)):
+        ring.AddPoint(poly['Longitude'][i], poly['Latitude'][i])
+    # return ring
+    poly = ogr.Geometry(ogr.wkbPolygon)
+    poly.AddGeometry(ring)
+    return poly
+
+def load_polygon():
+    road_polygon_dict = {}
+    for road in main_roads:
+        file_name = f'data/export/polygons/{road}.csv'
+        points = pd.read_csv(file_name)
+        poly = create_poly(points)
+        road_polygon_dict.setdefault(road, poly)
+    return road_polygon_dict
 
 def truncate_road(data):
+    road_polygon_dict = load_polygon()
     truncated = []
     for i in range(len(data)):
         road = data['primary_road'][i]
@@ -100,7 +124,14 @@ def truncate_road(data):
             main_road = main_road.split('(')[0]
             data['main_road'][i] = main_road
             if main_road in main_roads:
-                truncated.append(data['main_road'][i])
+                poly = road_polygon_dict.get(main_road)
+                x_min, x_max, y_min, y_max = poly.GetEnvelope()
+                lon = data['longitude'][i]
+                lat = data['latitude'][i]
+                if x_min > lon or x_max < lon:
+                    data['main_road'][i] = 'out'
+                if y_min > lat or y_max < lat:
+                    data['main_road'][i] = 'out'
         finally:
             i = i
     return truncated
